@@ -17,4 +17,5 @@ html, body {
     aspect-ratio: 1 / 1;  /* Ensures a perfect square */
     border: 1px solid black;
     box-sizing: border-box;  /* Prevents border from affecting size */
+    background-color: beige;
 }
