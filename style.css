@@ -6,16 +6,18 @@ html, body {
 
 #container {
    /* width: 100%;  /* Full width of the screen */
-   min-height: 100%; /* Full height of the screen */
+   /* min-height: 100%; Full height of the screen */
+   width: 100%;
+   height: auto;
     display: flex;
     flex-wrap: wrap;
-    background-color: aqua;
 }
 
 #container div {
-    width: calc(100% / 16);  /* Each box takes 1/16th of the width */
+    /* width: calc(100% / grid);  Each box takes 1/16th of the width */
     aspect-ratio: 1 / 1;  /* Ensures a perfect square */
     border: 1px solid black;
     box-sizing: border-box;  /* Prevents border from affecting size */
     background-color: beige;
+    
 }
