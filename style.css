@@ -1,23 +1,61 @@
-
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
 }
 
+#button {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#button button {
+
+    display: inline-block;
+    outline: 0;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 9px 22px;
+    font-size: 22px;
+    height: 50px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: normal;
+    background: linear-gradient(90deg, #5522fa 0, #0074e4 100%);
+    border-radius: 50px;
+    transition: color .2s ease, background-color .2s ease, box-shadow .2s ease;
+
+}
+
+#button button:hover {
+    box-shadow: 0 0 0 0.15rem #5ceace;
+}
+
+
 #container {
-   /* width: 100%;  /* Full width of the screen */
-   /* min-height: 100%; Full height of the screen */
-   width: 100%;
-   height: auto;
+    /* width: 100%;  /* Full width of the screen */
+    /* min-height: 100%; Full height of the screen */
+    width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
 }
 
+
 #container div {
     /* width: calc(100% / grid);  Each box takes 1/16th of the width */
-    aspect-ratio: 1 / 1;  /* Ensures a perfect square */
+    aspect-ratio: 1 / 1;
+    /* Ensures a perfect square */
     border: 1px solid black;
-    box-sizing: border-box;  /* Prevents border from affecting size */
+    box-sizing: border-box;
+    /* Prevents border from affecting size */
     background-color: beige;
-    
+
+}
+
+#container div:hover {
+    box-shadow: 0 0 0 0.15rem #5ceace;
 }
